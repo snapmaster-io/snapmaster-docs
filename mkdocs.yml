@@ -1,0 +1,17 @@
+site_name: SnapMaster Documentation
+site_url: https://docs.snapmaster.io
+nav: 
+  - Getting Started: 
+    - 'Introduction': getting-started/introduction.md
+    - 'Logging in for the first time': getting-started/logging-in-first-time.md
+    - 'Activating your first snap': getting-started/activating-first-snap.md
+  - CLI: 
+    - 'Getting started with the CLI': cli/getting-started.md
+    - 'Formatting output': cli/formatting-output.md
+    - 'Managing snaps': cli/managing-snaps.md
+    - 'Activating and managing active snaps': cli/managing-active-snaps.md
+    - 'Managing connections': cli/managing-connections.md
+  - Open Source: 
+    - oss.md
+
+theme: readthedocs
