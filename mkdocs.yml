@@ -2,7 +2,7 @@ site_name: SnapMaster Documentation
 site_url: https://docs.snapmaster.io
 nav: 
   - Getting Started: 
-    - 'Introduction': getting-started/introduction.md
+    - 'Introduction': getting-started/index.md
     - 'Logging in for the first time': getting-started/logging-in-first-time.md
     - 'Activating your first snap': getting-started/activating-first-snap.md
   - CLI: 
