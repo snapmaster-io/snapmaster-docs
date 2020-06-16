@@ -4,11 +4,13 @@ SnapMaster is a tool and framework for creating and running event-driven workflo
 
 ## Snaps
 
-*Snaps* are workflows that are activated on an event.  Snaps have a *trigger* and a set of 
-*actions* that are invoked when the trigger is fired.
+*Snaps* are definitions of event-driven workflows.  Snaps have a *trigger* and a set of 
+*actions* that are invoked when the trigger is fired. 
 
-Snaps are YAML documents.  They are named using an {account}/{name} format.  The 
-`snapmaster` account contains a number of "starter" snaps - for example, 
+Snaps don't do anything until they are *activated*.  More on that later.
+
+Snaps are described in YAML documents.  They are named using an {account}/{name} format. 
+The `snapmaster` account contains a number of "starter" snaps - for example, 
 `snapmaster/docker-slack`.  The *Gallery* contains a number of public snaps, including 
 `snapmaster/docker-slack`, which has the following graphical representation:
 

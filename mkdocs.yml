@@ -1,8 +1,12 @@
 site_name: SnapMaster Documentation
+site_author: Omri Gazitt
 site_url: https://docs.snapmaster.io
+copyright: "Copyright &copy; 2020 SnapMaster"
+repo_url: https://github.com/snapmaster-io/snapmaster-docs
+repo_name: snapmaster-docs
 nav: 
+  - 'Introduction': index.md
   - Getting Started: 
-    - 'Introduction': getting-started/index.md
     - 'Logging in for the first time': getting-started/logging-in-first-time.md
     - 'Activating your first snap': getting-started/activating-first-snap.md
   - CLI: 
