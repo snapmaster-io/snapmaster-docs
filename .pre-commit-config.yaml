@@ -1,0 +1,5 @@
+- repo: https://github.com/seandstewart/pre-commit-poetry-export
+  rev: master
+  hooks:
+    - id: export-requirements
+    - id: export-requirements-dev
