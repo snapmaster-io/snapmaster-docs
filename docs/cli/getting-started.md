@@ -24,7 +24,7 @@ snap: version <0.5.4>, git hash <9a1677474834f0e2c6c8f89da9a80bc6455e5a9e>
 
 ## Initializing `snap`
 
-`snap init` will create a config file (defaults to $HOME/.config/sna    config.json).  This has the most important configuration for snap:
+`snap init` will create a config file (defaults to $HOME/.config/snap/config.json).  This has the most important configuration for snap:
 
 * API URL: the URL for the API.  Currently defaults to https://dev.snapmaster.io
 * Client ID: the OAuth2 Client ID for the app.
